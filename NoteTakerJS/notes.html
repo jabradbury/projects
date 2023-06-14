@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Taker</title>
+    <link rel="stylesheet" href="notes.css" />
+</head>
+<body>
+    <div class="flex-container">
+        <h1>Note Taker</h1>
+        <div class="header">
+            <h3>Add A New Note:</h3>
+            <label for="title-box">Title:</label>
+            <input class="input" id="title-box" placeholder="Title" />
+            <label for="input-box">Note:</label>
+            <textarea class="input" id="input-box" placeholder="Write your note here"></textarea>
+            <button id="add-note">Add Note</button>
+        </div>
+        <div>
+            <ul id="note-storage-list">
+                
+            </ul>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="modal-title"></h2>
+        <p id="modal-content"></p>
+      </div>
+    </div>
+
+    <script src="notes.js"></script>
+</body>
+</html>
