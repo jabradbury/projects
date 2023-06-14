@@ -1,2 +1,2 @@
 # projects
-where I plan to upload any projects I work on not related to my portfolio website
+This is the place I upload any non-work projects I may be working on.
